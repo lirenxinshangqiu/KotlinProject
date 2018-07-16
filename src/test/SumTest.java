@@ -5,7 +5,7 @@ package test;
  */
 public class SumTest {
     public static void main(String[] args) {
-        int n = 10000000;
+        long n = 1000000000L;
         long start = System.currentTimeMillis();
         sum1(n);
         System.out.println("sum1时间：" + (System.currentTimeMillis() - start));

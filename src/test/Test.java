@@ -17,13 +17,17 @@ public class Test {
         System.out.println(ConstCompaionTest.Companion.getName1());
         clacleteShl(30);
         testTransient();
-        int[] array = new int[]{2, 4, 6, 2, 3, 3, 2, 8, 0, -1};
+        int[] array = createArray(1000);
+        long startTime = System.currentTimeMillis();
         SortDemo.bubbleSort(array);
+        System.out.println("冒泡排序时间："+(System.currentTimeMillis()-startTime));
+        long startTime1 = System.currentTimeMillis();
         SortDemo.selectSort(array);
-        for (int i = 0; i < array.length; i++) {
-            int index = SortDemo.binarySearch(array, array[i]);
-            System.out.println("value = " + array[i] + ",index = " + index);
-        }
+        System.out.println("选择排序时间："+(System.currentTimeMillis()-startTime1));
+//        for (int i = 0; i < array.length; i++) {
+//            int index = SortDemo.binarySearch(array, array[i]);
+//            System.out.println("value = " + array[i] + ",index = " + index);
+//        }
         int[] preorder = new int[]{1, 2, 4, 7, 3, 5, 6, 8};
         int[] inorder = new int[]{4, 7, 2, 1, 5, 3, 8, 6};
         try {
@@ -46,6 +50,14 @@ public class Test {
         System.out.println("n=" + n + ",m=" + m + "剩下的最后一个数：" + lastReaminning(n, m));
         int[] array1 = new int[]{2, 4, 7, 11, 16};
         calTargetInArray(array1, 9);
+    }
+
+    private static int[] createArray(int n){
+        int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            array[i] = (int) (Math.random()*n+1);
+        }
+        return array;
     }
 
     private static int lastReaminning(int n, int m) {
