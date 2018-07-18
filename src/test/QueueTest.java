@@ -1,6 +1,7 @@
 package test;
 
 import com.example.main.datastructure.java.queue.ArrayQueue;
+import com.example.main.datastructure.java.queue.LinkedListQueue;
 import com.example.main.datastructure.java.queue.LoopQueue;
 import com.example.main.datastructure.java.queue.Queue;
 
@@ -26,8 +27,9 @@ public class QueueTest {
     }
 
     public static void main(String[] args) {
-        int capacity = 1000000;
-        System.out.println("ArrayQueue:" + getQueuePopTime(new ArrayQueue<>(capacity), capacity));
+        int capacity = 10000000;
+//        System.out.println("ArrayQueue:" + getQueuePopTime(new ArrayQueue<>(capacity), capacity));
         System.out.println("LoopQueue:" + getQueuePopTime(new LoopQueue<>(capacity), capacity));
+        System.out.println("LinkedListQueue:" + getQueuePopTime(new LinkedListQueue<>(), capacity));
     }
 }
