@@ -9,6 +9,7 @@ import java.util.HashMap;
  * Created by ls on 18/6/22.
  */
 public class Test {
+    public static final Long time = System.currentTimeMillis();
 
     public static void main(String[] args) {
         System.out.println(ConstTest.name);
@@ -17,13 +18,22 @@ public class Test {
         System.out.println(ConstCompaionTest.Companion.getName1());
         clacleteShl(30);
         testTransient();
-        int[] array = createArray(1000);
+        int[] array = createArray(10000);
         long startTime = System.currentTimeMillis();
         SortDemo.bubbleSort(array);
-        System.out.println("冒泡排序时间："+(System.currentTimeMillis()-startTime));
+        System.out.println("冒泡排序时间：" + (System.currentTimeMillis() - startTime));
+        int[] array1 = createArray(10000);
+        long startTime2 = System.currentTimeMillis();
+        SortDemo.bubbleSortImproved(array1, array1.length);
+        System.out.println("改进冒泡排序时间：" + (System.currentTimeMillis() - startTime2));
+        int[] array2 = createArray(10000);
         long startTime1 = System.currentTimeMillis();
-        SortDemo.selectSort(array);
-        System.out.println("选择排序时间："+(System.currentTimeMillis()-startTime1));
+        SortDemo.selectSort(array2);
+        System.out.println("选择排序时间：" + (System.currentTimeMillis() - startTime1));
+        int[] array3 = createArray(10000);
+        long startTime3 = System.currentTimeMillis();
+        SortDemo.insertionSort(array3, array3.length);
+        System.out.println("插入排序时间：" + (System.currentTimeMillis() - startTime3));
 //        for (int i = 0; i < array.length; i++) {
 //            int index = SortDemo.binarySearch(array, array[i]);
 //            System.out.println("value = " + array[i] + ",index = " + index);
@@ -48,14 +58,22 @@ public class Test {
         int n = 5;
         int m = 3;
         System.out.println("n=" + n + ",m=" + m + "剩下的最后一个数：" + lastReaminning(n, m));
-        int[] array1 = new int[]{2, 4, 7, 11, 16};
-        calTargetInArray(array1, 9);
+        int[] array10 = new int[]{2, 4, 7, 11, 16};
+        calTargetInArray(array10, 9);
+        ObjectTest.INSTANCE.getAge();
+        ObjectTest.INSTANCE.getNAME();
+        System.out.println(ObjectTest.address);
+        System.out.println(ObjectTest.city);
+        System.out.println(ObjectTest.getStreet());
+        System.out.println("时间：" + time);
+        System.out.println("时间：" + time);
+        System.out.println("时间：" + time);
     }
 
-    private static int[] createArray(int n){
+    private static int[] createArray(int n) {
         int[] array = new int[n];
         for (int i = 0; i < n; i++) {
-            array[i] = (int) (Math.random()*n+1);
+            array[i] = (int) (Math.random() * n + 1);
         }
         return array;
     }
