@@ -81,14 +81,61 @@ public class SortDemo {
         printArray(array, "选择排序");
     }
 
-    public static void fastSort(int[] array) {
+    public static void quickSort(int[] array, int low, int high) {
+        printArray(array, "快速排序start");
         if (array == null) {
             return;
         }
         int length = array.length;
         if (length == 0) return;
+        if (low > high) return;
+        int i = low;
+        int j = high;
+        int key = array[low];
+        while (i < j) {
+            while (i < j && array[j] > key) {
+                j--;
+            }
+            while (i < j && array[i] <= key) {
+                i++;
+            }
+            if (i < j) {
+                int p = array[i];
+                array[i] = array[j];
+                array[j] = p;
+            }
+        }
+        int p = array[i];
+        array[i] = array[low];
+        array[low] = p;
+        quickSort(array, low, i - 1);
+        quickSort(array, i + 1, high);
 
 
+        printArray(array, "快速排序end");
+    }
+
+    private static int partition(int[] array, int low, int high) {
+        int left, right, pivot_item = array[low];
+        left = low;
+        right = high;
+        while (left < right) {
+            while (left < right && array[left] <= pivot_item) {
+                left++;
+            }
+            while (left < right && array[right] > pivot_item) {
+                right--;
+            }
+            if (left < right) {
+//                int temp = array[left];
+//                array[left] = array[right];
+//                array[right] = temp;
+
+            }
+        }
+        array[low] = array[right];
+        array[right] = pivot_item;
+        return right;
     }
 
     public static void insertionSort(int[] array, int n) {
@@ -132,5 +179,24 @@ public class SortDemo {
             }
         }
         return index;
+    }
+
+    public static void leftRotate(int[] array, int d, int n) {
+        reverseArray(array, 0, d - 1);
+        reverseArray(array, d, n - 1);
+        reverseArray(array, 0, n - 1);
+        printArray(array, String.format("数组经过%1$d个元素后", d));
+    }
+
+    public static void reverseArray(int[] array, int start, int end) {
+        int temp;
+        while (start < end) {
+            temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+            printArray(array, String.format("数组经过%1$d个元素后--", 2));
+        }
     }
 }

@@ -34,10 +34,13 @@ public class Test {
         long startTime3 = System.currentTimeMillis();
         SortDemo.insertionSort(array3, array3.length);
         System.out.println("插入排序时间：" + (System.currentTimeMillis() - startTime3));
+        int[] array4 = createArray(10);
+        SortDemo.quickSort(array4, 0, array4.length - 1);
 //        for (int i = 0; i < array.length; i++) {
 //            int index = SortDemo.binarySearch(array, array[i]);
 //            System.out.println("value = " + array[i] + ",index = " + index);
 //        }
+        SortDemo.leftRotate(new int[]{1, 2, 3, 4, 5, 6, 7}, 2, 7);
         int[] preorder = new int[]{1, 2, 4, 7, 3, 5, 6, 8};
         int[] inorder = new int[]{4, 7, 2, 1, 5, 3, 8, 6};
         try {
