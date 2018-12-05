@@ -56,6 +56,32 @@ class DLLNode {
             }
         }
 
+        fun dllDelete(headNode: DLLNode?, position: Int): DLLNode? {
+            val size = getLength(headNode)
+            if (position >= size || position < 0) {
+                println("输入的position不能超过链表长度或者小于0")
+                return headNode
+            }
+            if (position == 0) {
+                val next = headNode?.next
+                next?.previous = null
+                return next
+            } else {
+                var preNode = headNode
+                var count = 1
+                while (count<position){
+                    preNode = preNode?.next
+                    count++
+                }
+                var curNode = preNode?.next
+                var laterNode = curNode?.next
+                preNode?.next = laterNode
+                laterNode?.previous = preNode
+                curNode = null
+            }
+            return headNode
+        }
+
     }
 
     override fun toString(): String {
@@ -80,5 +106,6 @@ fun main(args: Array<String>) {
     println(listNode)
     val dllNode = DLLNode()
     dllNode.data = 10
-    println(DLLNode.dllInsert(listNode,dllNode,7))
+    println(DLLNode.dllInsert(listNode, dllNode, 7))
+    println(DLLNode.dllDelete(listNode,7))
 }
