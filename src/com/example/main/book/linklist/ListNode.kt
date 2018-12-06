@@ -1,4 +1,6 @@
-package com.example.main.book.bean
+package com.example.main.book.linklist
+
+import com.sun.org.apache.xpath.internal.operations.Bool
 
 /**
  * 单链表
@@ -84,7 +86,7 @@ class ListNode {
             }
         }
 
-        fun reserveLink(headNode: ListNode?):ListNode? {
+        fun reserveLink(headNode: ListNode?): ListNode? {
             var curNode = headNode
             var preNode: ListNode? = null
             while (curNode != null) {
@@ -122,8 +124,72 @@ class ListNode {
 
 }
 
+/**
+ * 蛮力法查找链表倒数第n个结点
+ */
+private fun searchByLastIndex(n: Int, listNode: ListNode?): ListNode? {
+    listNode ?: return null
+    var node = listNode
+    var listLength = ListNode.listLength(node)
+    if (n >= listLength) return null
+    while (listLength > n) {
+        node = node?.next
+        listLength = ListNode.listLength(node)
+    }
+
+    return node
+}
+
+/**
+ * 判断给定的链表是以NULL结点结束还是形成了环
+ */
+private fun doesLinkedListContainsLoop(headNode: ListNode?): Boolean {
+    if (headNode == null) return false
+    var slowNode: ListNode? = headNode
+    var fastNode: ListNode? = headNode
+    while (fastNode?.next != null && fastNode.next?.next != null) {
+        fastNode = fastNode.next?.next
+        slowNode = slowNode?.next
+        if (fastNode == slowNode) return true
+    }
+    return false
+}
+
+/**
+ * 一次扫描查找链表中倒数第n个结点
+ */
+private fun searcyByLastIndexWithOneScan(listNode: ListNode?, n: Int): ListNode? {
+    var pTNode = listNode
+    var nNode: ListNode? = null
+    var count = 0
+    while (pTNode != null) {
+        count++
+        pTNode = pTNode.next
+        if (count >= n) {
+            nNode = if (nNode == null) listNode else nNode.next
+        }
+    }
+//    (1 .. n).forEach {
+//        if (pTNode != null) {
+//            pTNode = pTNode?.next
+//        }
+//    }
+//    while (pTNode != null) {
+//        pTNode = pTNode?.next
+//        nNode = if (nNode == null) {
+//            listNode?.next
+//        } else {
+//            nNode.next
+//        }
+//    }
+    return nNode
+
+}
+
 fun main(args: Array<String>) {
     val listNode = ListNode.createListNode(arrayOf(1, 2, 3, 4, 5, 6), 0)
+    println(searchByLastIndex(1, listNode))
+    println(searcyByLastIndexWithOneScan(listNode, 5))
     println(listNode)
     println(ListNode.listLength(listNode))
     val insertListNode = ListNode()
