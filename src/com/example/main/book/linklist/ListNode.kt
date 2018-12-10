@@ -353,8 +353,8 @@ fun main(args: Array<String>) {
     val listNode = ListNode.createListNode(arrayOf(1, 2, 3, 4, 5, 6, 7), 0)
     val listNode1 = ListNode.createListNode(arrayOf(3, 4, 5, 6, 7, 9), 0)
 
-    println(reversePairIterative(listNode))
     println(reversePairRecursive(listNode))
+    println(reversePairIterative(listNode))
     println(mergeList(listNode, listNode1))
     println(printListFromEnd(listNode))
     println(searchByLastIndex(1, listNode))
