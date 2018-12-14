@@ -7,3 +7,19 @@ class BinaryTreeNode {
 
 
 }
+
+fun preOrder(treeNode: BinaryTreeNode?){
+    treeNode?:return
+    println(treeNode.data)
+    preOrder(treeNode.left)
+    preOrder(treeNode.right)
+}
+
+fun preOrderNonRecursive(treeNode: BinaryTreeNode?){
+    treeNode?:return
+
+}
+
+fun main(args: Array<String>) {
+
+}
