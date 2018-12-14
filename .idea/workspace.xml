@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b1943f-e91d-4868-aa62-557717d4d0cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/book/stack/SortArrayStack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/main/book/Queue/ArrayQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/main/book/tree/BinaryTreeNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +37,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="15" />
-          <entry key="kt" value="25" />
+          <entry key="java" value="17" />
+          <entry key="kt" value="28" />
           <entry key="md" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -45,8 +46,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="15" />
-          <entry key="Kotlin" value="25" />
+          <entry key="JAVA" value="17" />
+          <entry key="Kotlin" value="28" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -54,14 +55,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1863" />
-          <entry key="kt" value="11932" />
+          <entry key="kt" value="12866" />
           <entry key="md" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1863" />
-          <entry key="Kotlin" value="11932" />
+          <entry key="Kotlin" value="12866" />
           <entry key="PLAIN_TEXT" value="275" />
         </counts>
       </usages-collector>
@@ -75,50 +76,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/array/Array.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/stack/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/递归.md">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/array/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/kotlinc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/main/book/stack/AdavanceStack.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4026">
-              <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,11 +114,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/book/stack/SortArrayStack.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="265">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/book/Queue/ArrayQueue.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/book/tree/BinaryTreeNode.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -158,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="594">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -170,8 +179,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -212,6 +221,8 @@
         <option value="$PROJECT_DIR$/src/com/example/main/book/stack/AdavanceStack.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/stack/DoubleStack.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/stack/SortArrayStack.kt" />
+        <option value="$PROJECT_DIR$/src/com/example/main/book/Queue/ArrayQueue.kt" />
+        <option value="$PROJECT_DIR$/src/com/example/main/book/tree/BinaryTreeNode.kt" />
       </list>
     </option>
   </component>
@@ -306,7 +317,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlinDemo-master" type="b2602c69:ProjectViewProjectNode" />
@@ -316,18 +327,6 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinDemo-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="AdavanceStack.kt" type="24436e51:KtFileTreeNode" />
             </path>
             <path>
               <item name="kotlinDemo-master" type="b2602c69:ProjectViewProjectNode" />
@@ -420,8 +419,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544755683424" />
+    <property name="SearchEverywhereHistoryKey" value="ArrayStac&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544779362313" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -444,7 +443,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.example.main.book.stack.SortArrayStackKt">
+  <component name="RunManager" selected="Kotlin.com.example.main.book.Queue.ArrayQueueKt">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -463,14 +462,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.main.book.linklist.ListNodeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.main.book.Queue.ArrayQueueKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlinDemo-master" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.main.book.linklist.ListNodeKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.main.book.Queue.ArrayQueueKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -546,19 +545,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.example.main.book.linklist.ListNodeKt" />
       <item itemvalue="Kotlin.com.example.main.book.stack.DynArrayStackKt" />
       <item itemvalue="Kotlin.com.example.main.book.stack.DynArrayStackSolutionKt" />
       <item itemvalue="Kotlin.com.example.main.book.stack.AdavanceStackKt" />
       <item itemvalue="Kotlin.com.example.main.book.stack.SortArrayStackKt" />
+      <item itemvalue="Kotlin.com.example.main.book.Queue.ArrayQueueKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.example.main.book.Queue.ArrayQueueKt" />
         <item itemvalue="Kotlin.com.example.main.book.stack.SortArrayStackKt" />
         <item itemvalue="Kotlin.com.example.main.book.stack.AdavanceStackKt" />
         <item itemvalue="Kotlin.com.example.main.book.stack.DynArrayStackSolutionKt" />
         <item itemvalue="Kotlin.com.example.main.book.stack.DynArrayStackKt" />
-        <item itemvalue="Kotlin.com.example.main.book.linklist.ListNodeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -577,7 +576,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26817447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -593,7 +591,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32872504" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50039715" side_tool="true" weight="0.32973805" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49960285" weight="0.32872504" />
@@ -607,7 +605,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32962668" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26817447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26817447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -616,7 +614,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3625192" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3625192" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -759,13 +757,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/Base64Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ProfitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1027,31 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/stack/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/array/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/递归.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -1090,13 +1056,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/book/stack/DoubleStack.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1106,8 +1065,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/book/stack/SortArrayStack.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="265">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/array/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/stack/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/Queue/ArrayQueue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/tree/BinaryTreeNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
