@@ -34,6 +34,12 @@ fun main(args: Array<String>) {
     val findData = 5
     println("树中是否存在$findData：${rootTree.searchNode(findData)}")
     println("树中是否存在$findData：${rootTree.containElement(findData)}")
+    rootTree.insert(sixthTreeNode)
+    runMethod("插入一个节点：") {
+        preOrder(rootTree)
+    }
+    println("节点数：${rootTree.size()}")
+    println("节点数：${rootTree.sizeNonPre()}")
 }
 
 /**
@@ -99,5 +105,57 @@ fun BinaryTreeNode?.containElement(data: Int): Boolean {
         }
     }
     return false
+}
+
+/**
+ * 在子节点为null的节点插入节点
+ */
+fun BinaryTreeNode.insert(rootNode: BinaryTreeNode?) {
+    rootNode ?: return
+    val queue = ArrayQueue<BinaryTreeNode>()
+    queue.enqueue(this)
+    while (queue.isEmpty.not()) {
+        var node = queue.dequeue()
+        if (node.left == null) {
+            node.left = rootNode
+            return
+        } else {
+            queue.enqueue(node.left)
+        }
+        if (node.right == null) {
+            node.right = rootNode
+            return
+        } else {
+            queue.enqueue(node.right)
+        }
+    }
+}
+
+/**
+ * 递归计算数的节点数
+ */
+fun BinaryTreeNode.size(): Int {
+    return (this.left?.size() ?: 0) + 1 + (this.right?.size() ?: 0)
+}
+
+/**
+ * 非递归计算节点数
+ */
+fun BinaryTreeNode.sizeNonPre(): Int {
+    var count: Int = 1
+    val queue = ArrayQueue<BinaryTreeNode>()
+    queue.enqueue(this)
+    while (queue.isEmpty.not()) {
+        var treeNode = queue.dequeue()
+        treeNode?.left?.apply {
+            count++
+            queue.enqueue(this)
+        }
+        treeNode?.right?.apply {
+            count++
+            queue.enqueue(this)
+        }
+    }
+    return count
 }
 
