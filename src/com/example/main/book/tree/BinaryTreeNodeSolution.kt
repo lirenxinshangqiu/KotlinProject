@@ -193,7 +193,6 @@ fun BinaryTreeNode.heightLeve(): Int {
 }
 
 
-
 /**
  * 二叉树相关问题
  */
@@ -206,6 +205,7 @@ fun main(args: Array<String>) {
     val fifthTreeNode = BinaryTreeNode()
     val sixthTreeNode = BinaryTreeNode()
 
+    val array = Array(3) { Array<Int>(3) { 0 } }//二维数组创建
 
     rootTree.data = 0
     firstTree.data = 1
