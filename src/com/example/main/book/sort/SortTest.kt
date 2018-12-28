@@ -5,9 +5,27 @@ fun main(args: Array<String>) {
     val A = arrayOf(9, 3, 7, 2, 10, 5, 8, 2)
 //    bubbleSort(A)
 //    bubbleSortImprove(A)
-    selectSort(A)
+//    selectSort(A)
+    insertSort(A)
     A.print()
 
+}
+
+fun insertSort(array: Array<Int>) {
+    if (array.isEmpty()) return
+    array.print()
+    var temp: Int
+    var j: Int
+    (1 until array.size).forEach {
+        temp = array[it]
+        j = it - 1
+        while (j >= 0 && array[j] > temp) {
+            array[j + 1] = array[j]
+            j--
+        }
+        array[j + 1] = temp
+        array.print()
+    }
 }
 
 fun bubbleSort(A: Array<Int>) {
