@@ -6,7 +6,9 @@ fun main(args: Array<String>) {
 //    bubbleSort(A)
 //    bubbleSortImprove(A)
 //    selectSort(A)
-    insertSort(A)
+//    insertSort(A)
+    val temp = Array<Int>(A.size) { 0 }
+    mergeSort(A, temp, 0, A.size - 1)
     A.print()
 
 }
@@ -74,6 +76,55 @@ fun selectSort(A: Array<Int>) {
         A[min] = A[i]
         A[i] = temp
     }
+}
+
+fun mergeSort(array: Array<Int>, temp: Array<Int>, left: Int, right: Int) {
+    var mid: Int = 0
+    if (right > left) {
+        mid = (right + left) / 2
+        mergeSort(array, temp, left, mid)
+        mergeSort(array, temp, mid + 1, right)
+        merge(array, temp, left, mid + 1, right)
+    }
+
+}
+
+fun merge(array: Array<Int>, temp: Array<Int>, left: Int, mid: Int, right: Int) {
+    var left_end = mid - 1
+    var leftTemp = left
+    var rightTemp = right
+    var midTemp = mid
+    var tempPose = left
+    while ((leftTemp <= left_end) && midTemp <= rightTemp) {
+        if (array[leftTemp] <= array[midTemp]) {
+            temp[tempPose] = array[leftTemp]
+            leftTemp++
+        } else {
+            temp[tempPose] = array[midTemp]
+            midTemp++
+        }
+        tempPose++
+    }
+    while (leftTemp <= left_end) {
+        temp[tempPose] = array[leftTemp]
+        leftTemp++
+        tempPose++
+    }
+    while (midTemp <= rightTemp) {
+        temp[tempPose] = array[midTemp]
+        midTemp++
+        tempPose++
+    }
+
+//    temp.forEachIndexed { index, i ->
+//        array[index] = i
+//    }
+    (0 until right - left + 1).forEach {
+        array[rightTemp] = temp[rightTemp]
+        rightTemp--
+    }
+
+
 }
 
 fun <T> Array<T>.print() {
