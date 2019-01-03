@@ -7,8 +7,9 @@ fun main(args: Array<String>) {
 //    bubbleSortImprove(A)
 //    selectSort(A)
 //    insertSort(A)
-    val temp = Array<Int>(A.size) { 0 }
-    mergeSort(A, temp, 0, A.size - 1)
+//    val temp = Array<Int>(A.size) { 0 }
+//    mergeSort(A, temp, 0, A.size - 1)
+    quickSort(A, 0, A.size - 1)
     A.print()
 
 }
@@ -78,6 +79,9 @@ fun selectSort(A: Array<Int>) {
     }
 }
 
+/**
+ * 归并排序
+ */
 fun mergeSort(array: Array<Int>, temp: Array<Int>, left: Int, right: Int) {
     var mid: Int = 0
     if (right > left) {
@@ -116,9 +120,8 @@ fun merge(array: Array<Int>, temp: Array<Int>, left: Int, mid: Int, right: Int) 
         tempPose++
     }
 
-//    temp.forEachIndexed { index, i ->
-//        array[index] = i
-//    }
+
+    //必须分开，不能直接复制temp数组中的值
     (0 until right - left + 1).forEach {
         array[rightTemp] = temp[rightTemp]
         rightTemp--
@@ -126,6 +129,43 @@ fun merge(array: Array<Int>, temp: Array<Int>, left: Int, mid: Int, right: Int) 
 
 
 }
+
+
+/**
+ * 快速排序
+ */
+fun quickSort(array: Array<Int>, low: Int, high: Int) {
+    var piovt: Int
+    if (high > low) {
+        piovt = partition(array, low, high)
+        quickSort(array, low, piovt - 1)
+        quickSort(array, piovt + 1, high)
+    }
+}
+
+fun partition(array: Array<Int>, low: Int, high: Int): Int {
+    var left = low
+    var right = high
+    var pivotItem = array[low]
+    while (left < right) {
+        while (array[left] <= pivotItem) {
+            left++
+        }
+        while (array[right] > pivotItem) {
+            right--
+        }
+        if (left < right) {
+            var aTemp = array[left]
+            array[left] = array[right]
+            array[right] = aTemp
+        }
+    }
+    array[low] = array[right]
+    array[right] = pivotItem
+    return right
+
+}
+
 
 fun <T> Array<T>.print() {
     val builder = StringBuilder()
