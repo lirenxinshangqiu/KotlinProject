@@ -177,3 +177,25 @@ fun <T> Array<T>.print() {
     builder.append("]")
     println(builder.toString())
 }
+
+/**
+ * 给定数组A[0...n-1],其中每个元素代表选举中的一张选票，假设每张选票以一个整数来表示候选人的ID,给出一个算法来判定谁赢得选举
+ */
+private fun checkWhoWinsTheElection(array: Array<Int>, n: Int): Int {
+    var counter = 0
+    var maxCounter = 0
+    var candidate: Int = array[0]
+    array.forEachIndexed { index, i ->
+        counter = 0
+        (index + 1 until n).forEach {
+            if (array[index] == it) {
+                counter++
+            }
+        }
+        if (counter > maxCounter) {
+            maxCounter = counter
+            candidate = array[index]
+        }
+    }
+    return candidate
+}

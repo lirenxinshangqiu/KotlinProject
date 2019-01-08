@@ -249,6 +249,9 @@ private fun searcyByLastIndexWithOneScan(listNode: ListNode?, n: Int): ListNode?
 
 }
 
+/**
+ * 翻转单链表
+ */
 private fun reverseListNode(headNode: ListNode?): ListNode? {
     headNode ?: return null
     var head: ListNode? = headNode
@@ -261,6 +264,20 @@ private fun reverseListNode(headNode: ListNode?): ListNode? {
         head = nextNode
     }
     return head
+}
+
+/**
+ * 迭代方法实现单链表翻转
+ */
+private fun reverseListNode2(headNode: ListNode?,prevNode: ListNode?):ListNode?{
+    return if (headNode?.next ==null){
+        headNode?.next = prevNode
+        headNode
+    }else{
+        val re = reverseListNode2(headNode.next, headNode)
+        headNode.next = prevNode
+        re
+    }
 }
 
 private fun printListFromEnd(head: ListNode?) {

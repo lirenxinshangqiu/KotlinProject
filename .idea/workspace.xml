@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4b1943f-e91d-4868-aa62-557717d4d0cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/main/book/sort/SortTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/main/book/sort/SortTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,24 +22,24 @@
     <session id="600598672">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
           <entry key="java" value="22" />
-          <entry key="kt" value="39" />
+          <entry key="kt" value="40" />
           <entry key="md" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -47,7 +48,7 @@
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="JAVA" value="22" />
-          <entry key="Kotlin" value="39" />
+          <entry key="Kotlin" value="40" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -55,14 +56,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="3217" />
-          <entry key="kt" value="21126" />
+          <entry key="kt" value="21813" />
           <entry key="md" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3217" />
-          <entry key="Kotlin" value="21126" />
+          <entry key="Kotlin" value="21813" />
           <entry key="PLAIN_TEXT" value="275" />
         </counts>
       </usages-collector>
@@ -76,19 +77,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/main/book/string/StringMatch.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/book/sort/SortTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="160" column="9" lean-forward="true" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+            <state relative-caret-position="1113">
+              <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc;n#mergeSort#0" />
                 <element signature="n#!!block;n#mergeSort#0" />
@@ -98,11 +90,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="306" column="36" lean-forward="true" selection-start-line="306" selection-start-column="36" selection-end-line="306" selection-end-column="36" />
+              <folding>
+                <element signature="e#40#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/SortDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
+            <state relative-caret-position="4389">
+              <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -193,6 +197,7 @@
       <find>selectSort</find>
       <find>partition</find>
       <find>insert</find>
+      <find>reverseListNode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -215,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/com/example/main/book/bean/ListNode.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/linklist/DLLNode.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/linklist/CLLNode.kt" />
-        <option value="$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/stack/ArrayStack.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/stack/DynArrayStack.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/stack/DynArrayStackSolution.kt" />
@@ -229,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/com/example/main/book/string/StringMatch.kt" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/sort/SortTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/main/book/sort/SortTest.kt" />
+        <option value="$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt" />
       </list>
     </option>
   </component>
@@ -238,10 +243,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="262" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="2298" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectView">
@@ -251,40 +256,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="com.example.main" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="ArraySumMaxTest.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,6 +306,27 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlinDemo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+              <item name="ListNode.kt" type="24436e51:KtFileTreeNode" />
             </path>
             <path>
               <item name="kotlinDemo-master" type="b2602c69:ProjectViewProjectNode" />
@@ -432,11 +424,45 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.main" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+              <item name="ArraySumMaxTest.kt" type="24436e51:KtFileTreeNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="StringToken&#9;PSI&#9;JAVA://com.sun.java.swing.plaf.gtk.Metacity.PeekableStringTokenizer&#10;ArrayStac&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546483452631" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546485885106" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -601,10 +627,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1280" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26926133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26926133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -613,12 +639,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.21428572" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.21428572" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992057" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.34024578" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" visible="true" weight="0.34024578" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007943" side_tool="true" weight="0.34024578" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4992057" weight="0.32872504" />
@@ -680,37 +706,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt</url>
-          <line>252</line>
+          <line>255</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt</url>
-          <line>257</line>
+          <line>260</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt</url>
-          <line>279</line>
+          <line>296</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt</url>
-          <line>356</line>
+          <line>373</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt</url>
-          <line>355</line>
+          <line>372</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt</url>
-          <line>312</line>
+          <line>329</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -956,16 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="349" column="1" lean-forward="true" selection-start-line="349" selection-start-column="1" selection-end-line="349" selection-end-column="1" />
-          <folding>
-            <element signature="e#40#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/book/stack/DynArrayStack.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -1106,9 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6633">
           <caret line="203" column="40" selection-start-line="203" selection-start-column="40" selection-end-line="203" selection-end-column="40" />
-          <folding>
-            <element signature="e#36#169#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,6 +1143,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/string/StringMatch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/SortDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4389">
+          <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1182,28 +1209,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/string/StringMatch.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/SortDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="133" column="13" lean-forward="true" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/book/sort/SortTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="160" column="9" lean-forward="true" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
+        <state relative-caret-position="1113">
+          <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc;n#mergeSort#0" />
             <element signature="n#!!block;n#mergeSort#0" />
             <element signature="n#!!block;n#merge#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/linklist/ListNode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="306" column="36" lean-forward="true" selection-start-line="306" selection-start-column="36" selection-end-line="306" selection-end-column="36" />
+          <folding>
+            <element signature="e#40#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
