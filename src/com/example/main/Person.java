@@ -6,9 +6,12 @@ import java.io.Serializable;
  * Created by ls on 18/6/20.
  */
 public class Person implements Serializable {
-    private String name;
-    private int age;
+    private String name = "ls";
+    private int age = 10;
     private transient String password;
+
+    public Person() {
+    }
 
     public Person(String name, int age, String password) {
         this.name = name;
@@ -27,6 +30,14 @@ public class Person implements Serializable {
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    private void say() {
+        System.out.println("private say()");
+    }
+
+    public void work() {
+        System.out.println("public work()");
     }
 
     public String getName() {
