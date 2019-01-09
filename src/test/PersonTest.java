@@ -4,6 +4,7 @@ import com.example.main.Person;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class PersonTest {
@@ -35,10 +36,13 @@ public class PersonTest {
         }
 
         try {
+            Person person1 = (Person) personClass.newInstance();
+            Method setAge = personClass.getMethod("setAge", int.class);
+            setAge.setAccessible(true);
+            setAge.invoke(person1,5);//调用类中的方法
             Field age = personClass.getDeclaredField("age");
             age.setAccessible(true);
-            Person person1 = (Person) personClass.newInstance();
-            age.set(person1,20);
+//            age.set(person1,20);
             System.out.println("age-----------");
             System.out.println(age);
             System.out.println(age.get(person1));
@@ -47,6 +51,10 @@ public class PersonTest {
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
 
