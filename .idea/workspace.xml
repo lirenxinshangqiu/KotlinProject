@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b1943f-e91d-4868-aa62-557717d4d0cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/main/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ProfitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ProfitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/PersonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
           <entry key="kt" value="40" />
           <entry key="md" value="1" />
           <entry key="xml" value="3" />
@@ -48,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="28" />
           <entry key="Kotlin" value="40" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
@@ -56,14 +53,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3812" />
+          <entry key="java" value="4440" />
           <entry key="kt" value="21813" />
           <entry key="md" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3812" />
+          <entry key="JAVA" value="4440" />
           <entry key="Kotlin" value="21813" />
           <entry key="PLAIN_TEXT" value="275" />
         </counts>
@@ -106,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="8" selection-end-column="24" />
+            <state relative-caret-position="231">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#664#665#0" expanded="true" />
                 <element signature="e#715#716#0" expanded="true" />
@@ -139,11 +136,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            <state relative-caret-position="424">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="425" column="46" lean-forward="true" selection-start-line="425" selection-start-column="46" selection-end-line="425" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -153,15 +159,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
               <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/HanoTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -476,7 +473,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="StringToken&#9;PSI&#9;JAVA://com.sun.java.swing.plaf.gtk.Metacity.PeekableStringTokenizer&#10;ArrayStac&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546942852356" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546999558837" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -660,7 +658,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992057" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.27880183" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.2780338" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007943" side_tool="true" weight="0.34024578" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4992057" weight="0.32872504" />
@@ -883,13 +881,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/production/kotlinDemo-master/com/example/main/OprationDemo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/kotlinDemo-master/com/example/main/StandardDemo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1235,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="8" selection-end-column="24" />
+        <state relative-caret-position="231">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#664#665#0" expanded="true" />
             <element signature="e#715#716#0" expanded="true" />
@@ -1246,10 +1237,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="425" column="46" lean-forward="true" selection-start-line="425" selection-start-column="46" selection-end-line="425" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="56" lean-forward="true" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state relative-caret-position="424">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
