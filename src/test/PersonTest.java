@@ -2,6 +2,7 @@ package test;
 
 import com.example.main.Person;
 
+import java.io.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -25,7 +26,7 @@ public class PersonTest {
         Method[] declaredMethods = personClass.getDeclaredMethods();//获取类中的所有方法，包括private声明的和继承的
         Constructor[] constructors = personClass.getConstructors();
         getConsturctor(personClass);
-        printFields(name1,fields1,declaredFields,methods,declaredMethods,constructors);
+        printFields(name1, fields1, declaredFields, methods, declaredMethods, constructors);
         try {
             Person person1 = personClass1.newInstance();
             System.out.println(person1);
@@ -39,7 +40,7 @@ public class PersonTest {
             Person person1 = (Person) personClass.newInstance();
             Method setAge = personClass.getMethod("setAge", int.class);
             setAge.setAccessible(true);
-            setAge.invoke(person1,5);//调用类中的方法
+            setAge.invoke(person1, 5);//调用类中的方法
             Field age = personClass.getDeclaredField("age");
             age.setAccessible(true);
 //            age.set(person1,20);
@@ -58,6 +59,38 @@ public class PersonTest {
             e.printStackTrace();
         }
 
+        savePerson();
+        Person person1 = getPerson();
+        if (person1 != null) {
+            System.out.println("person序列化：" + person1.toString());
+        } else {
+            System.out.println("person反序列化失败");
+        }
+    }
+
+    private static void savePerson() {
+        Person person = new Person("lu", 20, "123");
+        try {
+            ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("cache.txt"));
+            objectOutputStream.writeObject(person);
+            objectOutputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static Person getPerson() {
+        try {
+            ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("cache.txt"));
+            Person person = ((Person) objectInputStream.readObject());
+            objectInputStream.close();
+            return  person;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     private static void getConsturctor(Class personClass) {
@@ -65,7 +98,7 @@ public class PersonTest {
         try {
             Constructor constructor = personClass.getConstructor();
             Constructor constructor1 = personClass.getConstructor(String.class, int.class, String.class);
-            if (constructor!=null){
+            if (constructor != null) {
                 System.out.println(constructor.getName());
             }
             if (constructor1 != null) {
@@ -76,8 +109,8 @@ public class PersonTest {
         }
     }
 
-    private static void printFields(String name1, Field[] fields1, Field[] declaredFields,Method[] methods,Method[] declaredMethods,Constructor[] constructors ) {
-        System.out.println("name:"+name1);
+    private static void printFields(String name1, Field[] fields1, Field[] declaredFields, Method[] methods, Method[] declaredMethods, Constructor[] constructors) {
+        System.out.println("name:" + name1);
         System.out.println("fields---------------");
         for (Field field : fields1) {
             System.out.println(field.getName());
