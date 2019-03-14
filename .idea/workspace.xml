@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b1943f-e91d-4868-aa62-557717d4d0cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/ColorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/FindFromMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/StringReplaceBlank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/main/foroffer/StringReplaceBlank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/StringReplaceBlank.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +37,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="32" />
+          <entry key="java" value="33" />
           <entry key="kt" value="41" />
           <entry key="md" value="1" />
           <entry key="xml" value="3" />
@@ -49,7 +46,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="33" />
           <entry key="Kotlin" value="41" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
@@ -57,14 +54,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6047" />
+          <entry key="java" value="6642" />
           <entry key="kt" value="21813" />
           <entry key="md" value="275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6047" />
+          <entry key="JAVA" value="6642" />
           <entry key="Kotlin" value="21813" />
           <entry key="PLAIN_TEXT" value="275" />
         </counts>
@@ -78,18 +75,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/PersonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2343">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/book/linklist/CLLNode.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -120,8 +105,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/StringReplaceBlank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="313">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -383,7 +377,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Person&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/Person.java&#10;StringToken&#9;PSI&#9;JAVA://com.sun.java.swing.plaf.gtk.Metacity.PeekableStringTokenizer&#10;ArrayStac&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552392511044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552530480469" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -844,13 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14850">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/stack/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1152,10 +1139,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/StringReplaceBlank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="313">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
