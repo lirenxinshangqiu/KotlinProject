@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b1943f-e91d-4868-aa62-557717d4d0cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/PrintBinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/PrintStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/main/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/main/BinaryTreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,15 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringReplaceBlank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/StringReplaceBlank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OddSortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/OddSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,20 +87,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkListResverTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/LinkListResverTest.java">
+      <file leaf-file-name="RebuildTreeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/RebuildTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="232">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintBinaryTreeNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrintStringTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/PrintStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkListResverTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/LinkListResverTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1595">
+              <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintBinaryTreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/PrintBinaryTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="261">
+              <caret line="10" column="122" selection-start-line="10" selection-start-column="122" selection-end-line="10" selection-end-column="122" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/main/BinaryTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -130,7 +151,7 @@
       <file leaf-file-name="BinaryTreeSolution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/BinaryTreeSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-377">
+            <state relative-caret-position="232">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
@@ -139,17 +160,8 @@
       <file leaf-file-name="LinkedListQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/queue/LinkedListQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-604">
+            <state relative-caret-position="377">
               <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/linklist/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,19 +171,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringJoiner.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/StringJoiner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-              <folding>
-                <element signature="e#3306#3307#0" expanded="true" />
-                <element signature="e#3345#3346#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -253,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/com/example/main/foroffer/LinkListResverTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/main/BinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/example/main/foroffer/PrintBinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/example/main/foroffer/PrintStringTest.java" />
       </list>
     </option>
   </component>
@@ -274,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -366,11 +367,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="foroffer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KotlinProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KotlinProject" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -407,7 +412,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Person&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/Person.java&#10;StringToken&#9;PSI&#9;JAVA://com.sun.java.swing.plaf.gtk.Metacity.PeekableStringTokenizer&#10;ArrayStac&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
+    <property name="SearchEverywhereHistoryKey" value=".idea/workspace.xml&#9;FILE&#9;file:///Users/lushan/workspace/KotlinProject/.idea/workspace.xml&#10;Person&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/Person.java&#10;StringToken&#9;PSI&#9;JAVA://com.sun.java.swing.plaf.gtk.Metacity.PeekableStringTokenizer&#10;ArrayStac&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;Ada&#9;null&#9;null&#10;kotlinc.xml&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/.idea/kotlinc.xml&#10;Stack&#9;FILE&#9;file:///Users/wenbaoxing/Documents/ls/demospace/kotlinDemo-master/src/com/example/main/datastructure/java/stack/ArrayStack.java&#10;ListNode&#9;PSI&#9;JAVA://com.example.main.datastructure.java.linklist.ListNode&#10;Sort&#9;PSI&#9;JAVA://com.example.main.SortDemo" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552635894546" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -432,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkListResverTest">
+  <component name="RunManager" selected="Application.PrintStringTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -461,8 +466,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrintFromZtoATest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.main.foroffer.PrintFromZtoATest" />
+    <configuration name="PrintStringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.main.foroffer.PrintStringTest" />
       <module name="kotlinDemo-master" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -554,19 +559,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrintFromZtoATest" />
       <item itemvalue="Application.RebuildTreeTest" />
       <item itemvalue="Application.RotateArray" />
       <item itemvalue="Application.OddSortTest" />
       <item itemvalue="Application.LinkListResverTest" />
+      <item itemvalue="Application.PrintStringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintStringTest" />
         <item itemvalue="Application.LinkListResverTest" />
         <item itemvalue="Application.OddSortTest" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.RebuildTreeTest" />
-        <item itemvalue="Application.PrintFromZtoATest" />
       </list>
     </recent_temporary>
   </component>
@@ -598,17 +603,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992057" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4992057" weight="0.32724506" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007943" side_tool="true" weight="0.34024578" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32962668" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.33789954" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.0761035" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.2780338" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.27549466" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31987077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21890146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -621,7 +627,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4992057" weight="0.32724506" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -631,7 +636,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.33789954" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31987077" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32471728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992057" weight="0.32872504" />
@@ -641,7 +646,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.39878234" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.2780338" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.27549466" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007943" side_tool="true" weight="0.34024578" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
@@ -857,15 +862,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/src.zip!/java/lang/Math.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/queue/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/book/stack/ArrayStack.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -951,9 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
           <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/RebuildTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1018,17 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2175">
           <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="e#3306#3307#0" expanded="true" />
-            <element signature="e#3345#3346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/OddSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1048,21 +1023,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/LinkListResverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="1595">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/datastructure/java/queue/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-604">
+        <state relative-caret-position="377">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/BinaryTreeSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
+        <state relative-caret-position="232">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
@@ -1070,16 +1045,55 @@
     <entry file="file://$PROJECT_DIR$/src/com/example/main/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/PrintBinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="261">
+          <caret line="10" column="122" selection-start-line="10" selection-start-column="122" selection-end-line="10" selection-end-column="122" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/OddSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="1107" column="45" selection-start-line="1107" selection-start-column="45" selection-end-line="1107" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/RebuildTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/PrintStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
           </folding>
         </state>
       </provider>
