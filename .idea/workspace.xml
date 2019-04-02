@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4b1943f-e91d-4868-aa62-557717d4d0cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/FindRepeatedNumberSolutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/main/foroffer/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,17 +81,26 @@
       <file leaf-file-name="OddSortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/OddSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindRepeatedNumberSolutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindRepeatedNumberSolutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/FindRepeatedNumberSolutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="3277">
+              <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -175,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/com/example/main/foroffer/PrintBinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/example/main/foroffer/PrintStringTest.java" />
         <option value="$PROJECT_DIR$/src/com/example/main/foroffer/FindRepeatedNumberSolutation.java" />
+        <option value="$PROJECT_DIR$/src/com/example/main/foroffer/Test.java" />
       </list>
     </option>
   </component>
@@ -196,40 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="com.example.main" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="test" type="1f31426a:PackageElementNode" />
-              <item name="ArraySumMaxTest.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,30 +246,46 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KotlinProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KotlinProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KotlinProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KotlinProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="foroffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KotlinProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="KotlinProject" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example.main" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="test" type="1f31426a:PackageElementNode" />
+              <item name="ArraySumMaxTest.kt" type="24436e51:KtFileTreeNode" />
+            </path>
+            <path>
+              <item name="kotlinDemo-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlinDemo-master" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindRepeatedNumberSolutation">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -378,8 +370,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.main.foroffer.RotateArray" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.main.foroffer.Test" />
       <module name="kotlinDemo-master" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -449,19 +441,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RotateArray" />
       <item itemvalue="Application.OddSortTest" />
       <item itemvalue="Application.LinkListResverTest" />
       <item itemvalue="Application.PrintStringTest" />
       <item itemvalue="Application.FindRepeatedNumberSolutation" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.FindRepeatedNumberSolutation" />
         <item itemvalue="Application.PrintStringTest" />
         <item itemvalue="Application.LinkListResverTest" />
         <item itemvalue="Application.OddSortTest" />
-        <item itemvalue="Application.RotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -499,12 +491,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007943" side_tool="true" weight="0.34024578" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32962668" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.26636225" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.22070014" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.27549466" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23182553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -520,28 +512,28 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.33789954" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32471728" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.26636225" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23182553" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992057" weight="0.32872504" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960285" weight="0.39878234" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992057" weight="0.27549466" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007943" side_tool="true" weight="0.34024578" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32949308" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4992057" weight="0.32724506" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32962668" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -752,7 +744,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/book/tree/BinaryTreeNodeSolution.kt" />
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/common/kotlin/text/StringBuilder.kt" />
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/text/StringsJVM.kt" />
     <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar!/kotlin/Any.kt" />
@@ -977,17 +968,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/OddSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/FindRepeatedNumberSolutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="3277">
+          <caret line="120" column="12" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/FindRepeatedNumberSolutation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/OddSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/main/foroffer/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
